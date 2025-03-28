@@ -1,0 +1,142 @@
+diff --git a/node_modules/react-native-scrollable-tab-view/DefaultTabBar.js b/node_modules/react-native-scrollable-tab-view/DefaultTabBar.js
+index da58b52..79ea138 100644
+--- a/node_modules/react-native-scrollable-tab-view/DefaultTabBar.js
++++ b/node_modules/react-native-scrollable-tab-view/DefaultTabBar.js
+@@ -1,7 +1,7 @@
+ const React = require('react');
+-const { ViewPropTypes } = ReactNative = require('react-native');
+ const PropTypes = require('prop-types');
+ const createReactClass = require('create-react-class');
++const ReactNative = require('react-native');
+ const {
+   StyleSheet,
+   Text,
+@@ -18,10 +18,10 @@ const DefaultTabBar = createReactClass({
+     backgroundColor: PropTypes.string,
+     activeTextColor: PropTypes.string,
+     inactiveTextColor: PropTypes.string,
+-    textStyle: Text.propTypes.style,
+-    tabStyle: ViewPropTypes.style,
++    textStyle: PropTypes.object,
++    tabStyle: PropTypes.object,
+     renderTab: PropTypes.func,
+-    underlineStyle: ViewPropTypes.style,
++    underlineStyle: PropTypes.object,
+   },
+ 
+   getDefaultProps() {
+diff --git a/node_modules/react-native-scrollable-tab-view/ScrollableTabBar.js b/node_modules/react-native-scrollable-tab-view/ScrollableTabBar.js
+index 1500b2d..c64e57c 100644
+--- a/node_modules/react-native-scrollable-tab-view/ScrollableTabBar.js
++++ b/node_modules/react-native-scrollable-tab-view/ScrollableTabBar.js
+@@ -1,7 +1,7 @@
+ const React = require('react');
+-const { ViewPropTypes } = ReactNative = require('react-native');
+ const PropTypes = require('prop-types');
+ const createReactClass = require('create-react-class');
++const ReactNative = require('react-native');
+ const {
+   View,
+   Animated,
+@@ -24,12 +24,12 @@ const ScrollableTabBar = createReactClass({
+     activeTextColor: PropTypes.string,
+     inactiveTextColor: PropTypes.string,
+     scrollOffset: PropTypes.number,
+-    style: ViewPropTypes.style,
+-    tabStyle: ViewPropTypes.style,
+-    tabsContainerStyle: ViewPropTypes.style,
+-    textStyle: Text.propTypes.style,
+-    renderTab: PropTypes.func,
+-    underlineStyle: ViewPropTypes.style,
++    style: PropTypes.object,
++    tabStyle: PropTypes.object,
++    tabsContainerStyle: PropTypes.object,
++    textStyle: PropTypes.object,
++    renderTab: PropTypes.object,
++    underlineStyle: PropTypes.object,
+     onScroll: PropTypes.func,
+   },
+ 
+diff --git a/node_modules/react-native-scrollable-tab-view/StaticContainer.js b/node_modules/react-native-scrollable-tab-view/StaticContainer.js
+index 18473d3..851ee69 100644
+--- a/node_modules/react-native-scrollable-tab-view/StaticContainer.js
++++ b/node_modules/react-native-scrollable-tab-view/StaticContainer.js
+@@ -2,11 +2,11 @@ const React = require('react');
+ 
+ class StaticContainer extends React.Component {
+ 
+-  shouldComponentUpdate(nextProps: Object): boolean {
++  shouldComponentUpdate(nextProps) {
+     return !!nextProps.shouldUpdate;
+   }
+ 
+-  render(): ?ReactElement {
++  render() {
+     var child = this.props.children;
+     if (child === null || child === false) {
+       return null;
+diff --git a/node_modules/react-native-scrollable-tab-view/index.js b/node_modules/react-native-scrollable-tab-view/index.js
+index 541d589..c73c69a 100644
+--- a/node_modules/react-native-scrollable-tab-view/index.js
++++ b/node_modules/react-native-scrollable-tab-view/index.js
+@@ -1,8 +1,8 @@
+ const React = require('react');
+ const { Component } = React;
+-const { ViewPropTypes } = ReactNative = require('react-native');
+ const createReactClass = require('create-react-class');
+ const PropTypes = require('prop-types');
++const ReactNative = require('react-native');
+ const {
+   Dimensions,
+   View,
+@@ -12,7 +12,7 @@ const {
+   StyleSheet,
+   InteractionManager,
+ } = ReactNative;
+-import ViewPager from '@react-native-community/viewpager';
++import PagerView from 'react-native-pager-view'
+ const TimerMixin = require('react-timer-mixin');
+ 
+ const SceneComponent = require('./SceneComponent');
+@@ -20,7 +20,7 @@ const DefaultTabBar = require('./DefaultTabBar');
+ const ScrollableTabBar = require('./ScrollableTabBar');
+ 
+ const AnimatedViewPagerAndroid = Platform.OS === 'android' ?
+-  Animated.createAnimatedComponent(ViewPager) :
++  Animated.createAnimatedComponent(PagerView) :
+   undefined;
+ 
+ const ScrollableTabView = createReactClass({
+@@ -39,12 +39,12 @@ const ScrollableTabView = createReactClass({
+     onChangeTab: PropTypes.func,
+     onScroll: PropTypes.func,
+     renderTabBar: PropTypes.any,
+-    tabBarUnderlineStyle: ViewPropTypes.style,
++    tabBarUnderlineStyle: PropTypes.object,
+     tabBarBackgroundColor: PropTypes.string,
+     tabBarActiveTextColor: PropTypes.string,
+     tabBarInactiveTextColor: PropTypes.string,
+     tabBarTextStyle: PropTypes.object,
+-    style: ViewPropTypes.style,
++    style: PropTypes.object,
+     contentProps: PropTypes.object,
+     scrollWithoutAnimation: PropTypes.bool,
+     locked: PropTypes.bool,
+@@ -231,7 +231,7 @@ const ScrollableTabView = createReactClass({
+         automaticallyAdjustContentInsets={false}
+         contentOffset={{ x: this.props.initialPage * this.state.containerWidth, }}
+         ref={(scrollView) => { this.scrollView = scrollView; }}
+-        onScroll={Animated.event(
++        onScroll={() => Animated.event(
+           [{ nativeEvent: { contentOffset: { x: this.state.scrollXIOS, }, }, }, ],
+           { useNativeDriver: true, listener: this._onScroll, }
+         )}
+@@ -257,7 +257,7 @@ const ScrollableTabView = createReactClass({
+         onPageSelected={this._updateSelectedPage}
+         keyboardDismissMode="on-drag"
+         scrollEnabled={!this.props.locked}
+-        onPageScroll={Animated.event(
++        onPageScroll={() => Animated.event(
+           [{
+             nativeEvent: {
+               position: this.state.positionAndroid,

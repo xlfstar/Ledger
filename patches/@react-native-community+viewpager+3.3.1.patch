@@ -1,0 +1,481 @@
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/results.bin b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/BuildConfig.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/BuildConfig.dex
+new file mode 100644
+index 0000000..aa19d68
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/BuildConfig.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageScrollEvent.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageScrollEvent.dex
+new file mode 100644
+index 0000000..175b660
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageScrollEvent.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.dex
+new file mode 100644
+index 0000000..bbeae6f
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageSelectedEvent.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageSelectedEvent.dex
+new file mode 100644
+index 0000000..49e68d0
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/PageSelectedEvent.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/RNCViewPagerPackage.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/RNCViewPagerPackage.dex
+new file mode 100644
+index 0000000..9bd33ed
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/RNCViewPagerPackage.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$1.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$1.dex
+new file mode 100644
+index 0000000..29a2129
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$1.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.dex
+new file mode 100644
+index 0000000..8f916ab
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.dex
+new file mode 100644
+index 0000000..256b513
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager.dex
+new file mode 100644
+index 0000000..5dc717f
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPager.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPagerManager.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPagerManager.dex
+new file mode 100644
+index 0000000..f3d853a
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/ReactViewPagerManager.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager$1.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager$1.dex
+new file mode 100644
+index 0000000..d5d79a9
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager$1.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.dex
+new file mode 100644
+index 0000000..bae3e7c
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager.dex
+new file mode 100644
+index 0000000..a933cac
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/reactnativecommunity/viewpager/VerticalViewPager.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..8ed59c4
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/0c90f6de4ec872cd961f9f1d959164b9/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/2a8159504b807176df42f439c6c184d1/results.bin b/node_modules/@react-native-community/viewpager/android/build/.transforms/2a8159504b807176df42f439c6c184d1/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/.transforms/2a8159504b807176df42f439c6c184d1/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/@react-native-community/viewpager/android/build/.transforms/2a8159504b807176df42f439c6c184d1/transformed/classes/classes_dex/classes.dex b/node_modules/@react-native-community/viewpager/android/build/.transforms/2a8159504b807176df42f439c6c184d1/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..a3a659e
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/.transforms/2a8159504b807176df42f439c6c184d1/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/generated/source/buildConfig/debug/com/reactnativecommunity/viewpager/BuildConfig.java b/node_modules/@react-native-community/viewpager/android/build/generated/source/buildConfig/debug/com/reactnativecommunity/viewpager/BuildConfig.java
+new file mode 100644
+index 0000000..bd50db6
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/generated/source/buildConfig/debug/com/reactnativecommunity/viewpager/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.reactnativecommunity.viewpager;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.reactnativecommunity.viewpager";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/@react-native-community/viewpager/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..ca28475
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.reactnativecommunity.viewpager" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/@react-native-community/viewpager/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..9099d56
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.reactnativecommunity.viewpager",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/@react-native-community/viewpager/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/@react-native-community/viewpager/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..170c54d
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..fcb99da
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..359035d
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Tue Dec 17 00:40:35 CST 2024
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..5787e3b
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..bc92455
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..30d6c6f
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..4e787c9
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/BuildConfig.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/BuildConfig.class
+new file mode 100644
+index 0000000..faae8bc
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/BuildConfig.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageScrollEvent.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageScrollEvent.class
+new file mode 100644
+index 0000000..906cc66
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageScrollEvent.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.class
+new file mode 100644
+index 0000000..2b0b04c
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageSelectedEvent.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageSelectedEvent.class
+new file mode 100644
+index 0000000..5b95c42
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/PageSelectedEvent.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/RNCViewPagerPackage.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/RNCViewPagerPackage.class
+new file mode 100644
+index 0000000..47db1ec
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/RNCViewPagerPackage.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$1.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$1.class
+new file mode 100644
+index 0000000..5e224ff
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$1.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.class
+new file mode 100644
+index 0000000..0055bcd
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.class
+new file mode 100644
+index 0000000..4704fa4
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager.class
+new file mode 100644
+index 0000000..4048de1
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPager.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPagerManager.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPagerManager.class
+new file mode 100644
+index 0000000..61297b1
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/ReactViewPagerManager.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager$1.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager$1.class
+new file mode 100644
+index 0000000..1437e0a
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager$1.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.class
+new file mode 100644
+index 0000000..4e6e250
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager.class
+new file mode 100644
+index 0000000..8238f42
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/reactnativecommunity/viewpager/VerticalViewPager.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/@react-native-community/viewpager/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/@react-native-community/viewpager/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..416473d
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,7 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.reactnativecommunity.viewpager" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++6
++7</manifest>
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..ca28475
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.reactnativecommunity.viewpager" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/@react-native-community/viewpager/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/@react-native-community/viewpager/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/BuildConfig.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/BuildConfig.class
+new file mode 100644
+index 0000000..faae8bc
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/BuildConfig.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageScrollEvent.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageScrollEvent.class
+new file mode 100644
+index 0000000..906cc66
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageScrollEvent.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.class
+new file mode 100644
+index 0000000..2b0b04c
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageScrollStateChangedEvent.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageSelectedEvent.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageSelectedEvent.class
+new file mode 100644
+index 0000000..5b95c42
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/PageSelectedEvent.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/RNCViewPagerPackage.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/RNCViewPagerPackage.class
+new file mode 100644
+index 0000000..47db1ec
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/RNCViewPagerPackage.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$1.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$1.class
+new file mode 100644
+index 0000000..5e224ff
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$1.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.class
+new file mode 100644
+index 0000000..0055bcd
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$Adapter.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.class
+new file mode 100644
+index 0000000..4704fa4
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager$PageChangeListener.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager.class
+new file mode 100644
+index 0000000..4048de1
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPager.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPagerManager.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPagerManager.class
+new file mode 100644
+index 0000000..61297b1
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/ReactViewPagerManager.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager$1.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager$1.class
+new file mode 100644
+index 0000000..1437e0a
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager$1.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.class
+new file mode 100644
+index 0000000..4e6e250
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager$VerticalPageTransformer.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager.class b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager.class
+new file mode 100644
+index 0000000..8238f42
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/reactnativecommunity/viewpager/VerticalViewPager.class differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar
+new file mode 100644
+index 0000000..8af0409
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar differ
+diff --git a/node_modules/@react-native-community/viewpager/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/@react-native-community/viewpager/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..63d7341
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++com.reactnativecommunity.viewpager
+diff --git a/node_modules/@react-native-community/viewpager/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/@react-native-community/viewpager/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..e899d83
+--- /dev/null
++++ b/node_modules/@react-native-community/viewpager/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,17 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml:2:1-5:12
++INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml:2:1-5:12
++	package
++		ADDED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml:3:11-55
++		INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml:2:11-69
++uses-sdk
++INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml
++INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/leesong/Desktop/ATV/develop/atv-app-pro/node_modules/@react-native-community/viewpager/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/@react-native-community/viewpager/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/@react-native-community/viewpager/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..461bc05
+Binary files /dev/null and b/node_modules/@react-native-community/viewpager/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/@react-native-community/viewpager/js/ViewPager.js b/node_modules/@react-native-community/viewpager/js/ViewPager.js
+index 93c7c9a..89b60c5 100644
+--- a/node_modules/@react-native-community/viewpager/js/ViewPager.js
++++ b/node_modules/@react-native-community/viewpager/js/ViewPager.js
+@@ -101,7 +101,7 @@ class ViewPager extends React.Component<ViewPagerProps> {
+   };
+ 
+   _onPageScroll = (e: PageScrollEvent) => {
+-    if (this.props.onPageScroll) {
++    if (this.props.onPageScroll && typeof this.props.onPageScroll === 'function') {
+       this.props.onPageScroll(e);
+     }
+     // Not implemented on iOS yet
+diff --git a/node_modules/@react-native-community/viewpager/js/ViewPagerNativeComponent.js b/node_modules/@react-native-community/viewpager/js/ViewPagerNativeComponent.js
+index 60aeee0..dfe3065 100644
+--- a/node_modules/@react-native-community/viewpager/js/ViewPagerNativeComponent.js
++++ b/node_modules/@react-native-community/viewpager/js/ViewPagerNativeComponent.js
+@@ -12,11 +12,11 @@
+ 
+ const {requireNativeComponent} = require('react-native');
+ 
+-import type {NativeComponent} from 'react-native/Libraries/Renderer/shims/ReactNative';
+-
++// import type {NativeComponent} from 'react-native/Libraries/Renderer/shims/ReactNative';
++import type {HostComponent} from 'react-native/Libraries/Renderer/shims/ReactNativeTypes';
+ import type {ViewPagerProps} from './types';
+ 
+-type ViewPagerNativeType = Class<NativeComponent<ViewPagerProps>>;
++type ViewPagerNativeType = Class<HostComponent<ViewPagerProps>>;
+ 
+ module.exports = ((requireNativeComponent(
+   'RNCViewPager',
+diff --git a/node_modules/@react-native-community/viewpager/js/types.js b/node_modules/@react-native-community/viewpager/js/types.js
+index 77f7fe9..208d2ff 100644
+--- a/node_modules/@react-native-community/viewpager/js/types.js
++++ b/node_modules/@react-native-community/viewpager/js/types.js
+@@ -10,10 +10,12 @@
+ import * as React from 'react';
+ import {View} from 'react-native';
+ import type {Node} from 'react';
+-import type {SyntheticEvent} from 'react-native/Libraries/Types/CoreEventTypes';
+-import type {ViewStyleProp} from 'react-native/Libraries/StyleSheet/StyleSheet';
++// import type {SyntheticEvent} from 'react-native/Libraries/Types/CoreEventTypes';
++import type {NativeSyntheticEvent} from 'react-native/Libraries/Types/CoreEventTypes';
++// import type {ViewStyleProp} from 'react-native/Libraries/StyleSheet/StyleSheet';
++import type {ViewStyle, ViewProps} from 'react-native';
+ 
+-type ViewProps = React.ElementProps<typeof View>;
++// type ViewProps = React.ElementProps<typeof View>;
+ type ResponderCaptureType = $PropertyType<
+   ViewProps,
+   'onMoveShouldSetResponderCapture',
+@@ -21,20 +23,20 @@ type ResponderCaptureType = $PropertyType<
+ 
+ export type PageScrollState = 'idle' | 'dragging' | 'settling';
+ 
+-export type PageScrollEvent = SyntheticEvent<
++export type PageScrollEvent = NativeSyntheticEvent<
+   $ReadOnly<{|
+     position: number,
+     offset: number,
+   |}>,
+ >;
+ 
+-export type PageScrollStateChangedEvent = SyntheticEvent<
++export type PageScrollStateChangedEvent = NativeSyntheticEvent<
+   $ReadOnly<{|
+     pageScrollState: PageScrollState,
+   |}>,
+ >;
+ 
+-export type PageSelectedEvent = SyntheticEvent<
++export type PageSelectedEvent = NativeSyntheticEvent<
+   $ReadOnly<{|
+     position: number,
+   |}>,
+@@ -100,7 +102,7 @@ export type ViewPagerProps = $ReadOnly<{|
+ 
+   children?: Node,
+ 
+-  style?: ?ViewStyleProp,
++  style?: ViewStyle,
+ 
+   /**
+    * If a parent `View` wants to prevent a child `View` from becoming responder

@@ -1,0 +1,8 @@
+export {default as xianjin} from './xianjin.png'
+export {default as yinhangka} from './yinhangka.png'
+export {default as xinyongka} from './xinyongka.png'
+export {default as xunizhanghu} from './xunizhanghu.png'
+export {default as touzizhanghu} from './touzi.png'
+export {default as fuzhai} from './fuzhai.png'
+export {default as zhaiquan} from './zhaiquan.png'
+export {default as zidingyi} from './zidingyi.png'
