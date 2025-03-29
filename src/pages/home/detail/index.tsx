@@ -42,6 +42,7 @@ import {
 } from '@/utils'
 import SwipeItem from './components/Item'
 import { useFocusEffect } from '@react-navigation/native'
+import configs from '@/configs'
 
 const barList = [
   {
@@ -189,6 +190,7 @@ const DetailPage = ({ navigation, route }: any) => {
       )
     }
   }
+  console.log('---configs', configs)
 
   return (
     <PageView headerObj={headerObj}>

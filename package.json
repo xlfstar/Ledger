@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "releaseApk": "cd android && ./gradlew clean && ./gradlew assembleRelease --warning-mode all"
   },
   "dependencies": {
     "@quidone/react-native-wheel-picker": "1.3.2",

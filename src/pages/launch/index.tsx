@@ -35,12 +35,6 @@ const LaunchPage = ({ navigation }: any) => {
   const [isAgreed, setIsAgreed] = useState(true)
 
   useEffect(() => {
-    if (isAgreed) {
-      navigation.replace('mainTab')
-    }
-  }, [isAgreed])
-
-  useEffect(() => {
     const checkAgreement = async () => {
       const agreed = await AsyncStorage.getItem('userAgreed')
       setIsAgreed(agreed === 'true')
@@ -52,27 +46,49 @@ const LaunchPage = ({ navigation }: any) => {
     await AsyncStorage.setItem('userAgreed', 'true')
     setIsAgreed(true)
   }
-  useEffect(() => {
-    dispatch(fetchClassifies({ pageSize: 999, status: 1 }))
-    dispatch(fetchAssetsAccounts({ pageSize: 999, status: 1 }))
-  }, [])
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    if (user?.id) {
-      dispatch(fetchAssetsList())
-      dispatch(fetchAllBillList({ user_id: user.id }))
+    if (isAgreed && !isLoading) {
+      navigation.replace('mainTab')
     }
-  }, [user])
-
+  }, [isAgreed, isLoading])
+  // 处理所有初始化请求
   useEffect(() => {
-    if (!isCreatedDeviceUser && device_id) {
-      dispatch(createDeviceUserAction(device_id))
+    const initializeApp = async () => {
+      try {
+        // 1. 处理设备用户创建和获取
+        if (!isCreatedDeviceUser && device_id) {
+          await dispatch(createDeviceUserAction(device_id))
+        }
+        if (isCreatedDeviceUser && !user && device_id) {
+          const res = await getUserByDevice(device_id)
+          dispatch(setCredentials({ user: res }))
+        }
+
+        // 2. 获取基础数据
+        await Promise.all([
+          dispatch(fetchClassifies({ pageSize: 999, status: 1 })),
+          dispatch(fetchAssetsAccounts({ pageSize: 999, status: 1 })),
+        ])
+
+        // 3. 获取用户相关数据
+        if (user?.id) {
+          await Promise.all([
+            dispatch(fetchAssetsList()),
+            dispatch(fetchAllBillList({ user_id: user.id })),
+          ])
+        }
+
+        setIsLoading(false)
+        // 完成所有请求后跳转到首页
+      } catch (error) {
+        console.error('初始化数据失败:', error)
+        setIsLoading(false)
+      }
     }
-    if (isCreatedDeviceUser && !user && device_id) {
-      getUserByDevice(device_id).then((res) => {
-        dispatch(setCredentials({ user: res }))
-      })
-    }
+
+    initializeApp()
   }, [device_id, isCreatedDeviceUser, user])
 
   return (
